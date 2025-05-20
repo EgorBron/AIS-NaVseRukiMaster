@@ -25,6 +25,8 @@
   <autonumbering>true</autonumbering>
   <defaultObjectForm>Document.ОказаниеУслуги.Form.ФормаДокументаАвтоСумма</defaultObjectForm>
   <registerRecords>AccumulationRegister.ОстаткиМатериалов</registerRecords>
+  <registerRecords>AccumulationRegister.СтоимостьМатериалов</registerRecords>
+  <registerRecords>AccumulationRegister.Продажи</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="ea7e85fc-8a25-4443-a8e2-9dc969a09cba">
@@ -163,4 +165,16 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
   </tabularSections>
+  <templates uuid="0a387b09-b1d8-4b20-adff-af206d55db2e">
+    <name>Печать</name>
+  </templates>
+  <commands uuid="eeacde65-a5c4-41d4-b7ed-5033be4901d9">
+    <name>Печать</name>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>DocumentRef.ОказаниеУслуги</types>
+    </commandParameterType>
+    <parameterUseMode>Multiple</parameterUseMode>
+    <representation>Auto</representation>
+  </commands>
 </mdclass:Document>

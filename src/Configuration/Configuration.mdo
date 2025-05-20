@@ -50,11 +50,21 @@
   <commonPictures>CommonPicture.ПредпКартинка</commonPictures>
   <commonPictures>CommonPicture.УчМатКартинка</commonPictures>
   <commonModules>CommonModule.РаботаСДокументами</commonModules>
+  <commonModules>CommonModule.РаботаСоСправочниками</commonModules>
   <catalogs>Catalog.Клиенты</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>
   <catalogs>Catalog.Склады</catalogs>
   <catalogs>Catalog.Сотрудники</catalogs>
   <documents>Document.ОказаниеУслуги</documents>
   <documents>Document.ПриходнаяНакладная</documents>
+  <enums>Enum.ВидНоменклатуры</enums>
+  <reports>Report.ВыручкаМастеров</reports>
+  <reports>Report.Материалы</reports>
+  <reports>Report.РегистрДокументовОказаниеУслуги</reports>
+  <reports>Report.РейтингУслуг</reports>
+  <reports>Report.Универсальный</reports>
+  <informationRegisters>InformationRegister.Цены</informationRegisters>
   <accumulationRegisters>AccumulationRegister.ОстаткиМатериалов</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.СтоимостьМатериалов</accumulationRegisters>
 </mdclass:Configuration>

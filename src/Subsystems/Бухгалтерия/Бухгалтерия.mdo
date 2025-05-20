@@ -17,4 +17,11 @@
   <content>Document.ПриходнаяНакладная</content>
   <content>Document.ОказаниеУслуги</content>
   <content>AccumulationRegister.ОстаткиМатериалов</content>
+  <content>InformationRegister.Цены</content>
+  <content>AccumulationRegister.СтоимостьМатериалов</content>
+  <content>AccumulationRegister.Продажи</content>
+  <content>Report.РегистрДокументовОказаниеУслуги</content>
+  <content>Report.РейтингУслуг</content>
+  <content>Report.ВыручкаМастеров</content>
+  <content>Report.Универсальный</content>
 </mdclass:Subsystem>

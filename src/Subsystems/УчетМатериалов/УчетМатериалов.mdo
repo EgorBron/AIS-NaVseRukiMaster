@@ -14,4 +14,6 @@
   <content>Catalog.Склады</content>
   <content>Document.ПриходнаяНакладная</content>
   <content>AccumulationRegister.ОстаткиМатериалов</content>
+  <content>AccumulationRegister.СтоимостьМатериалов</content>
+  <content>AccumulationRegister.Продажи</content>
 </mdclass:Subsystem>

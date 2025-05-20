@@ -14,4 +14,10 @@
   <content>Catalog.Номенклатура</content>
   <content>Catalog.Склады</content>
   <content>Document.ОказаниеУслуги</content>
+  <content>InformationRegister.Цены</content>
+  <content>AccumulationRegister.СтоимостьМатериалов</content>
+  <content>AccumulationRegister.Продажи</content>
+  <content>Report.РегистрДокументовОказаниеУслуги</content>
+  <content>Report.РейтингУслуг</content>
+  <content>Report.ВыручкаМастеров</content>
 </mdclass:Subsystem>
