@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccountingRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="944026de-b700-4247-b507-8d837ad7f52e">
+  <producedTypes>
+    <selectionType typeId="b9d7598e-c334-40c1-9512-5acc8f987663" valueTypeId="702f17e4-654a-4840-af44-4d55c099d5c6"/>
+    <listType typeId="bb3bfb51-add5-4785-920a-6c32e7ee619c" valueTypeId="feb08d84-988d-4f06-abb5-f4c1cececd53"/>
+    <managerType typeId="9c465caf-c4f5-48c4-a7b4-1e6ad0152ceb" valueTypeId="8f91ca87-40d1-4970-9b34-bf09919c359a"/>
+    <recordSetType typeId="714d98f0-ed3d-4842-a9b4-c5f5dc934052" valueTypeId="5d57cad3-aa4e-414a-ad9c-79b5c76d9860"/>
+    <recordKeyType typeId="ef3e4c8e-1bfc-4ad4-bdd5-f4d348343425" valueTypeId="8ef4b2bb-8966-4680-bca9-ed3569848fc1"/>
+    <recordType typeId="ce23232d-70c6-43d0-b332-583f668f665c" valueTypeId="fea73ee7-74fd-4a24-afaf-d3ef297638bc"/>
+    <extDimensionsType typeId="48b8d7e3-6561-4acb-840e-3ce34b56c401" valueTypeId="1af425bf-c0fe-47a1-b473-e257c9f4ff2b"/>
+  </producedTypes>
+  <name>Управленческий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Управленческий</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <chartOfAccounts>ChartOfAccounts.Основной</chartOfAccounts>
+  <correspondence>true</correspondence>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Движения в регистре Управленческий</value>
+  </extendedListPresentation>
+  <resources uuid="d5491e9f-9656-4142-838f-4c7d0ef1096f">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <balance>true</balance>
+  </resources>
+  <resources uuid="8a24cd0a-fe9e-4f9a-bf06-81f17b26167a">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <accountingFlag>ChartOfAccounts.Основной.AccountingFlag.Количественный</accountingFlag>
+    <extDimensionAccountingFlag>ChartOfAccounts.Основной.ExtDimensionAccountingFlag.Количественный</extDimensionAccountingFlag>
+  </resources>
+</mdclass:AccountingRegister>

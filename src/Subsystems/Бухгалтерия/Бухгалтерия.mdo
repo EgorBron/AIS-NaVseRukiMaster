@@ -24,4 +24,12 @@
   <content>Report.РейтингУслуг</content>
   <content>Report.ВыручкаМастеров</content>
   <content>Report.Универсальный</content>
+  <content>Catalog.ВариантыНоменклатуры</content>
+  <content>Catalog.ДополнительныеСвойстваНоменклатуры</content>
+  <content>ChartOfCharacteristicTypes.СвойстваНоменклатуры</content>
+  <content>Report.ОстаткиМатериаловПоСвойствам</content>
+  <content>ChartOfCharacteristicTypes.ВидыСубконто</content>
+  <content>ChartOfAccounts.Основной</content>
+  <content>AccountingRegister.Управленческий</content>
+  <content>Report.ОборотноСальдоваяВедомость</content>
 </mdclass:Subsystem>

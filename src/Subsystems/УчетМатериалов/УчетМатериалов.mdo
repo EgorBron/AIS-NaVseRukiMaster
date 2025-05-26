@@ -16,4 +16,8 @@
   <content>AccumulationRegister.ОстаткиМатериалов</content>
   <content>AccumulationRegister.СтоимостьМатериалов</content>
   <content>AccumulationRegister.Продажи</content>
+  <content>Catalog.ВариантыНоменклатуры</content>
+  <content>Catalog.ДополнительныеСвойстваНоменклатуры</content>
+  <content>ChartOfCharacteristicTypes.СвойстваНоменклатуры</content>
+  <content>Report.ОстаткиМатериаловПоСвойствам</content>
 </mdclass:Subsystem>

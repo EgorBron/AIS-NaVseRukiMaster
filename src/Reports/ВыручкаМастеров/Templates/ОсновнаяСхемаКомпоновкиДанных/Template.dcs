@@ -293,6 +293,8 @@
 								<d7p1:endIsPointNumber>false</d7p1:endIsPointNumber>
 							</d7p1:referenceBand>
 						</dcscor:value>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>68b1e42f-3a88-444a-8001-1b9c36d80d87</dcsset:userSettingID>
 					</dcscor:item>
 				</dcscor:item>
 			</dcsset:outputParameters>
