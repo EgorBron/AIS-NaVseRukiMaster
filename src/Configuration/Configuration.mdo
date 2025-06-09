@@ -49,26 +49,44 @@
   <commonPictures>CommonPicture.ОкУслКартинка</commonPictures>
   <commonPictures>CommonPicture.ПредпКартинка</commonPictures>
   <commonPictures>CommonPicture.УчМатКартинка</commonPictures>
-  <commonModules>CommonModule.РаботаСДокументами</commonModules>
+  <roles>Role.Администратор</roles>
+  <roles>Role.Бухгалтер</roles>
+  <roles>Role.Директор</roles>
+  <roles>Role.Мастер</roles>
+  <roles>Role.Расчетчик</roles>
+  <commonModules>CommonModule.ГлобальныйПоискВДанных</commonModules>
+  <commonModules>CommonModule.ПроведениеРасчетов</commonModules>
+  <commonModules>CommonModule.РаботаСДокументамиКлиент</commonModules>
   <commonModules>CommonModule.РаботаСоСправочниками</commonModules>
+  <commonModules>CommonModule.РегламентныеПроцедуры</commonModules>
+  <commonModules>CommonModule.Сообщения</commonModules>
+  <scheduledJobs>ScheduledJob.ОбновлениеИндекса</scheduledJobs>
+  <scheduledJobs>ScheduledJob.СлияниеИндексов</scheduledJobs>
   <commonForms>CommonForm.ГлавныйЭкран</commonForms>
   <catalogs>Catalog.ВариантыНоменклатуры</catalogs>
+  <catalogs>Catalog.ВидыГрафикаРаботы</catalogs>
   <catalogs>Catalog.ДополнительныеСвойстваНоменклатуры</catalogs>
   <catalogs>Catalog.Клиенты</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>
   <catalogs>Catalog.Склады</catalogs>
   <catalogs>Catalog.Сотрудники</catalogs>
   <catalogs>Catalog.Субконто</catalogs>
+  <documents>Document.ВводНачальныхОстатковНоменклатуры</documents>
+  <documents>Document.НачисленияСотрудникам</documents>
   <documents>Document.ОказаниеУслуги</documents>
   <documents>Document.ПриходнаяНакладная</documents>
   <enums>Enum.ВидНоменклатуры</enums>
   <reports>Report.ВыручкаМастеров</reports>
+  <reports>Report.ДиаграммаНачислений</reports>
   <reports>Report.Материалы</reports>
+  <reports>Report.НачисленияСотрудникам</reports>
   <reports>Report.ОборотноСальдоваяВедомость</reports>
   <reports>Report.ОстаткиМатериаловПоСвойствам</reports>
+  <reports>Report.Перерасчет</reports>
   <reports>Report.РегистрДокументовОказаниеУслуги</reports>
   <reports>Report.РейтингУслуг</reports>
   <reports>Report.Универсальный</reports>
+  <informationRegisters>InformationRegister.ГрафикиРаботы</informationRegisters>
   <informationRegisters>InformationRegister.ЗначенияСвойствНоменклатуры</informationRegisters>
   <informationRegisters>InformationRegister.Цены</informationRegisters>
   <accumulationRegisters>AccumulationRegister.ОстаткиМатериалов</accumulationRegisters>
@@ -78,4 +96,6 @@
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.СвойстваНоменклатуры</chartsOfCharacteristicTypes>
   <chartsOfAccounts>ChartOfAccounts.Основной</chartsOfAccounts>
   <accountingRegisters>AccountingRegister.Управленческий</accountingRegisters>
+  <chartsOfCalculationTypes>ChartOfCalculationTypes.ОсновныеНачисления</chartsOfCalculationTypes>
+  <calculationRegisters>CalculationRegister.Начисления</calculationRegisters>
 </mdclass:Configuration>

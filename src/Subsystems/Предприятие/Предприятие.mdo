@@ -10,4 +10,13 @@
   <picture xsi:type="core:PictureRef">
     <picture>CommonPicture.ПредпКартинка</picture>
   </picture>
+  <content>Catalog.ВариантыНоменклатуры</content>
+  <content>Catalog.ВидыГрафикаРаботы</content>
+  <content>Catalog.ДополнительныеСвойстваНоменклатуры</content>
+  <content>Catalog.Клиенты</content>
+  <content>Catalog.Номенклатура</content>
+  <content>Catalog.Склады</content>
+  <content>Catalog.Сотрудники</content>
+  <content>Catalog.Субконто</content>
+  <content>InformationRegister.ЗначенияСвойствНоменклатуры</content>
 </mdclass:Subsystem>

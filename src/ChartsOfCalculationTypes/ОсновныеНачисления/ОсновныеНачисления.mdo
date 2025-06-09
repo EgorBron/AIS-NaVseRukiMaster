@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfCalculationTypes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aaa8add8-36b1-4c87-8f2a-4d70b760df13">
+  <producedTypes>
+    <objectType typeId="5e50f62e-87b5-4576-90a4-fb9b23cc681e" valueTypeId="6f06fd35-d80e-4061-829c-cd6b19811529"/>
+    <refType typeId="c7e9be76-8584-4914-88e7-8e13e754872f" valueTypeId="cf9ee68a-f99b-4604-a3cb-f58df9725886"/>
+    <selectionType typeId="55c955d1-cafd-4aa8-828f-88b6a779a1bd" valueTypeId="bf4ba460-a248-4a42-b3d9-f670d0090e69"/>
+    <listType typeId="de7ad4b1-83d8-440d-b107-e6cebb3224ca" valueTypeId="4057ba8c-d8f4-46e2-b63e-54a064801982"/>
+    <managerType typeId="8e31f9d8-6250-431a-8019-02e71155836d" valueTypeId="3e127ada-749e-4a55-a8e8-e340ab7b92ad"/>
+    <displacingCalculationTypesType typeId="34f6ad3a-6ecd-4cd9-9dbc-ceb4a422a3e3" valueTypeId="d7394b93-d62c-4a69-8598-266804b8f636"/>
+    <displacingCalculationTypesRowType typeId="8a46dcb5-1de3-4557-8d82-aa31dc6dc888" valueTypeId="0b47d88c-6a96-4aa3-b6b0-ad4b2aff8a51"/>
+    <baseCalculationTypesType typeId="d1d54a14-1fc8-44e2-8a4a-ba246527bc4c" valueTypeId="f87ed9b5-28aa-42b7-958a-fb6e892ad602"/>
+    <baseCalculationTypesRowType typeId="ecf4d292-4d9b-495c-8b94-6fa471c27d1d" valueTypeId="6379903f-b35d-4f7c-a257-838addd735e7"/>
+    <leadingCalculationTypesType typeId="2f0f4498-0f7d-4fba-bab3-6a2c0514656a" valueTypeId="983e2c0f-7a45-4a49-8c3d-b818e4473147"/>
+    <leadingCalculationTypesRowType typeId="d832018d-c585-442c-ba4e-972422e1d04e" valueTypeId="24f3dff1-bd7e-4d75-b267-935266560d1e"/>
+  </producedTypes>
+  <name>ОсновныеНачисления</name>
+  <synonym>
+    <key>ru</key>
+    <value>Основные начисления</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ChartOfCalculationTypes.ОсновныеНачисления.StandardAttribute.Code</inputByString>
+  <inputByString>ChartOfCalculationTypes.ОсновныеНачисления.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <listPresentation>
+    <key>ru</key>
+    <value>Виды расчетов</value>
+  </listPresentation>
+  <codeLength>9</codeLength>
+  <descriptionLength>40</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <dependenceOnCalculationTypes>OnActionPeriod</dependenceOnCalculationTypes>
+  <baseCalculationTypes>ChartOfCalculationTypes.ОсновныеНачисления</baseCalculationTypes>
+  <actionPeriodUse>true</actionPeriodUse>
+  <predefined>
+    <items id="bfa7b2c8-0751-46f8-ae03-f4e9a59d6782">
+      <name>Невыход</name>
+      <description>Невыход</description>
+      <code xsi:type="core:StringValue">
+        <value>Невыход</value>
+      </code>
+    </items>
+    <items id="a6a97a5e-bab2-4d8c-a40d-7fbce6bdb896">
+      <name>Оклад</name>
+      <description>Оклад</description>
+      <code xsi:type="core:StringValue">
+        <value>Оклад</value>
+      </code>
+      <displaced>ChartOfCalculationTypes.ОсновныеНачисления.Невыход</displaced>
+      <leading>ChartOfCalculationTypes.ОсновныеНачисления.Невыход</leading>
+    </items>
+    <items id="6fbd6dcd-33a4-4be9-ac30-d03b68f6d913">
+      <name>Премия</name>
+      <description>Премия</description>
+      <code xsi:type="core:StringValue">
+        <value>Премия</value>
+      </code>
+      <base>ChartOfCalculationTypes.ОсновныеНачисления.Оклад</base>
+      <leading>ChartOfCalculationTypes.ОсновныеНачисления.Оклад</leading>
+      <leading>ChartOfCalculationTypes.ОсновныеНачисления.Невыход</leading>
+    </items>
+    <items id="4f0f810a-0f18-4c3d-9821-ab0e0d920a63">
+      <name>Прог</name>
+      <description>Зарплата программиста</description>
+      <code xsi:type="core:StringValue">
+        <value>Прог</value>
+      </code>
+    </items>
+  </predefined>
+</mdclass:ChartOfCalculationTypes>

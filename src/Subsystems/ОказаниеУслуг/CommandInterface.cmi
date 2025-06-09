@@ -10,14 +10,80 @@
     <visibilityFragments>
       <command>AccumulationRegister.СтоимостьМатериалов.StandardCommand.OpenList</command>
       <visible>
-        <common>true</common>
+        <for>
+          <value>true</value>
+          <role>Role.Администратор</role>
+        </for>
       </visible>
     </visibilityFragments>
     <visibilityFragments>
       <command>AccumulationRegister.Продажи.StandardCommand.OpenList</command>
       <visible>
-        <common>true</common>
+        <for>
+          <value>true</value>
+          <role>Role.Администратор</role>
+        </for>
+      </visible>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>AccumulationRegister.ОстаткиМатериалов.StandardCommand.OpenList</command>
+      <visible>
+        <for>
+          <value>true</value>
+          <role>Role.Администратор</role>
+        </for>
+      </visible>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>Document.ОказаниеУслуги.StandardCommand.OpenList</command>
+      <visible>
+        <for>
+          <value>true</value>
+          <role>Role.Мастер</role>
+        </for>
       </visible>
     </visibilityFragments>
   </commandsVisibility>
+  <commandsPlacement>
+    <placementFragments>
+      <group>NavigationPanelImportant</group>
+      <commands>Document.ОказаниеУслуги.StandardCommand.OpenList</commands>
+    </placementFragments>
+    <placementFragments>
+      <group>NavigationPanelSeeAlso</group>
+      <commands>AccumulationRegister.СтоимостьМатериалов.StandardCommand.OpenList</commands>
+      <commands>AccumulationRegister.Продажи.StandardCommand.OpenList</commands>
+      <commands>AccumulationRegister.ОстаткиМатериалов.StandardCommand.OpenList</commands>
+    </placementFragments>
+  </commandsPlacement>
+  <commandsOrder>
+    <orderFragments>
+      <group>NavigationPanelImportant</group>
+      <commands>Document.ОказаниеУслуги.StandardCommand.OpenList</commands>
+    </orderFragments>
+    <orderFragments>
+      <group>NavigationPanelOrdinary</group>
+      <commands>InformationRegister.Цены.StandardCommand.OpenList</commands>
+      <commands>Catalog.ВариантыНоменклатуры.StandardCommand.OpenList</commands>
+      <commands>Catalog.ДополнительныеСвойстваНоменклатуры.StandardCommand.OpenList</commands>
+      <commands>Catalog.Клиенты.StandardCommand.OpenList</commands>
+      <commands>Catalog.Номенклатура.StandardCommand.OpenList</commands>
+      <commands>Catalog.Склады.StandardCommand.OpenList</commands>
+      <commands>Catalog.Сотрудники.StandardCommand.OpenList</commands>
+      <commands>ChartOfCharacteristicTypes.СвойстваНоменклатуры.StandardCommand.OpenList</commands>
+    </orderFragments>
+    <orderFragments>
+      <group>NavigationPanelSeeAlso</group>
+      <commands>AccumulationRegister.ОстаткиМатериалов.StandardCommand.OpenList</commands>
+      <commands>AccumulationRegister.СтоимостьМатериалов.StandardCommand.OpenList</commands>
+      <commands>AccumulationRegister.Продажи.StandardCommand.OpenList</commands>
+    </orderFragments>
+    <orderFragments>
+      <group>ActionsPanelReports</group>
+      <commands>Report.Материалы.StandardCommand.Open</commands>
+      <commands>Report.РегистрДокументовОказаниеУслуги.StandardCommand.Open</commands>
+      <commands>Report.РейтингУслуг.StandardCommand.Open</commands>
+      <commands>Report.ВыручкаМастеров.StandardCommand.Open</commands>
+    </orderFragments>
+  </commandsOrder>
 </cmi:CommandInterface>

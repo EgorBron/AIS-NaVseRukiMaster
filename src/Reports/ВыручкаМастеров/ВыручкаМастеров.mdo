@@ -10,7 +10,17 @@
     <value>Выручка мастеров</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.ВыручкаМастеров.Form.ФормаОтчета</defaultForm>
   <mainDataCompositionSchema>Report.ВыручкаМастеров.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <forms uuid="367254a1-063a-4063-9ed6-a7f625d5e0bd">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <templates uuid="2aa3392a-03ee-4950-9ce6-9ec3ad8a53a8">
     <name>ОсновнаяСхемаКомпоновкиДанных</name>
     <synonym>

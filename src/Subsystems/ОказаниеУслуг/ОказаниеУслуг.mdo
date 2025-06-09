@@ -23,4 +23,7 @@
   <content>Catalog.ВариантыНоменклатуры</content>
   <content>Catalog.ДополнительныеСвойстваНоменклатуры</content>
   <content>ChartOfCharacteristicTypes.СвойстваНоменклатуры</content>
+  <content>Catalog.Сотрудники</content>
+  <content>AccumulationRegister.ОстаткиМатериалов</content>
+  <content>Report.Материалы</content>
 </mdclass:Subsystem>

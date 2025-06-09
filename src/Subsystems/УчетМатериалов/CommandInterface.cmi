@@ -23,19 +23,122 @@
       <command>AccumulationRegister.ОстаткиМатериалов.StandardCommand.OpenList</command>
       <visible>
         <common>true</common>
+        <for>
+          <value>true</value>
+          <role>Role.Администратор</role>
+        </for>
+        <for>
+          <role>Role.Директор</role>
+        </for>
+        <for>
+          <role>Role.Мастер</role>
+        </for>
       </visible>
     </visibilityFragments>
     <visibilityFragments>
       <command>AccumulationRegister.СтоимостьМатериалов.StandardCommand.OpenList</command>
       <visible>
         <common>true</common>
+        <for>
+          <value>true</value>
+          <role>Role.Администратор</role>
+        </for>
+        <for>
+          <role>Role.Директор</role>
+        </for>
+        <for>
+          <role>Role.Мастер</role>
+        </for>
       </visible>
     </visibilityFragments>
     <visibilityFragments>
       <command>AccumulationRegister.Продажи.StandardCommand.OpenList</command>
       <visible>
         <common>true</common>
+        <for>
+          <value>true</value>
+          <role>Role.Администратор</role>
+        </for>
+        <for>
+          <role>Role.Директор</role>
+        </for>
+        <for>
+          <role>Role.Мастер</role>
+        </for>
+      </visible>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>Document.ПриходнаяНакладная.StandardCommand.Create</command>
+      <visible>
+        <for>
+          <role>Role.Директор</role>
+        </for>
+        <for>
+          <value>true</value>
+          <role>Role.Мастер</role>
+        </for>
+        <for>
+          <role>Role.Администратор</role>
+        </for>
+      </visible>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>InformationRegister.Цены.StandardCommand.Create</command>
+      <visible>
+        <for>
+          <role>Role.Директор</role>
+        </for>
+        <for>
+          <value>true</value>
+          <role>Role.Мастер</role>
+        </for>
+        <for>
+          <role>Role.Администратор</role>
+        </for>
       </visible>
     </visibilityFragments>
   </commandsVisibility>
+  <commandsPlacement>
+    <placementFragments>
+      <group>NavigationPanelImportant</group>
+      <commands>Document.ПриходнаяНакладная.StandardCommand.OpenList</commands>
+    </placementFragments>
+    <placementFragments>
+      <group>NavigationPanelSeeAlso</group>
+      <commands>AccumulationRegister.ОстаткиМатериалов.StandardCommand.OpenList</commands>
+      <commands>AccumulationRegister.СтоимостьМатериалов.StandardCommand.OpenList</commands>
+      <commands>AccumulationRegister.Продажи.StandardCommand.OpenList</commands>
+    </placementFragments>
+  </commandsPlacement>
+  <commandsOrder>
+    <orderFragments>
+      <group>NavigationPanelOrdinary</group>
+      <commands>Catalog.ВариантыНоменклатуры.StandardCommand.OpenList</commands>
+      <commands>Catalog.ДополнительныеСвойстваНоменклатуры.StandardCommand.OpenList</commands>
+      <commands>Catalog.Номенклатура.StandardCommand.OpenList</commands>
+      <commands>Catalog.Склады.StandardCommand.OpenList</commands>
+      <commands>ChartOfCharacteristicTypes.СвойстваНоменклатуры.StandardCommand.OpenList</commands>
+    </orderFragments>
+    <orderFragments>
+      <group>NavigationPanelImportant</group>
+      <commands>Document.ПриходнаяНакладная.StandardCommand.OpenList</commands>
+    </orderFragments>
+    <orderFragments>
+      <group>ActionsPanelCreate</group>
+      <commands>Document.ПриходнаяНакладная.StandardCommand.Create</commands>
+      <commands>InformationRegister.Цены.StandardCommand.Create</commands>
+      <commands>Catalog.ВариантыНоменклатуры.StandardCommand.Create</commands>
+      <commands>Catalog.ДополнительныеСвойстваНоменклатуры.StandardCommand.Create</commands>
+      <commands>Catalog.Номенклатура.StandardCommand.Create</commands>
+      <commands>Catalog.Номенклатура.StandardCommand.CreateFolder</commands>
+      <commands>Catalog.Склады.StandardCommand.Create</commands>
+      <commands>ChartOfCharacteristicTypes.СвойстваНоменклатуры.StandardCommand.Create</commands>
+    </orderFragments>
+    <orderFragments>
+      <group>NavigationPanelSeeAlso</group>
+      <commands>AccumulationRegister.ОстаткиМатериалов.StandardCommand.OpenList</commands>
+      <commands>AccumulationRegister.СтоимостьМатериалов.StandardCommand.OpenList</commands>
+      <commands>AccumulationRegister.Продажи.StandardCommand.OpenList</commands>
+    </orderFragments>
+  </commandsOrder>
 </cmi:CommandInterface>

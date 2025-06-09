@@ -20,4 +20,6 @@
   <content>Catalog.ДополнительныеСвойстваНоменклатуры</content>
   <content>ChartOfCharacteristicTypes.СвойстваНоменклатуры</content>
   <content>Report.ОстаткиМатериаловПоСвойствам</content>
+  <content>InformationRegister.Цены</content>
+  <content>Report.Материалы</content>
 </mdclass:Subsystem>

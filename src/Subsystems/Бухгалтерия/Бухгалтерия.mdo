@@ -32,4 +32,14 @@
   <content>ChartOfAccounts.Основной</content>
   <content>AccountingRegister.Управленческий</content>
   <content>Report.ОборотноСальдоваяВедомость</content>
+  <content>ChartOfCalculationTypes.ОсновныеНачисления</content>
+  <content>Catalog.ВидыГрафикаРаботы</content>
+  <content>InformationRegister.ГрафикиРаботы</content>
+  <content>CalculationRegister.Начисления</content>
+  <content>Document.НачисленияСотрудникам</content>
+  <content>Report.Перерасчет</content>
+  <content>Report.НачисленияСотрудникам</content>
+  <content>Report.ДиаграммаНачислений</content>
+  <content>Document.ВводНачальныхОстатковНоменклатуры</content>
+  <content>Report.Материалы</content>
 </mdclass:Subsystem>

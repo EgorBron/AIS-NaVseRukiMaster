@@ -24,6 +24,7 @@
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <defaultObjectForm>Document.ОказаниеУслуги.Form.ФормаДокументаАвтоСумма</defaultObjectForm>
+  <defaultListForm>Document.ОказаниеУслуги.Form.ФормаСписка</defaultListForm>
   <registerRecords>AccumulationRegister.ОстаткиМатериалов</registerRecords>
   <registerRecords>AccumulationRegister.СтоимостьМатериалов</registerRecords>
   <registerRecords>AccumulationRegister.Продажи</registerRecords>
@@ -80,6 +81,15 @@
     <synonym>
       <key>ru</key>
       <value>Форма документа авто сумма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="06d84185-8dcd-4c07-810e-927dcbda3de7">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
