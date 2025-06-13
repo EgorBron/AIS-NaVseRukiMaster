@@ -186,4 +186,13 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
   </tabularSections>
+  <forms uuid="1dc36b55-5b8b-44d0-9866-815423c8b9b2">
+    <name>ФормаДляВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма для выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Catalog>

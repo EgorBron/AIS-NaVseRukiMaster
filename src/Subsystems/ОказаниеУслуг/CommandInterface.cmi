@@ -37,10 +37,17 @@
     <visibilityFragments>
       <command>Document.ОказаниеУслуги.StandardCommand.OpenList</command>
       <visible>
+        <common>true</common>
         <for>
           <value>true</value>
           <role>Role.Мастер</role>
         </for>
+      </visible>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>Document.ОказаниеУслуги.StandardCommand.Create</command>
+      <visible>
+        <common>true</common>
       </visible>
     </visibilityFragments>
   </commandsVisibility>

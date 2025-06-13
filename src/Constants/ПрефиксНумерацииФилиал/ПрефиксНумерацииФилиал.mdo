@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="af1800fa-709a-4c45-a395-cde969ea55aa">
+  <producedTypes>
+    <managerType typeId="c1ab5f81-dc11-42fa-8ced-399daa7a2ab1" valueTypeId="8cdd3865-d26b-4b94-9846-132ac85a841b"/>
+    <valueManagerType typeId="fcd6dfb3-1339-4a15-85d0-3416498fc902" valueTypeId="9fe96ff4-4ff1-4a24-b043-75fc38fec62d"/>
+    <valueKeyType typeId="9b3f22a4-f4b3-4ab3-b02c-cf53c6b09614" valueTypeId="8554ca0c-32d2-4a0d-8ca4-f8fd68a25c0e"/>
+  </producedTypes>
+  <name>ПрефиксНумерацииФилиал</name>
+  <synonym>
+    <key>ru</key>
+    <value>Префикс нумерации (филиал)</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>3</length>
+      <fixed>true</fixed>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.ОбщиеНастройки</defaultForm>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

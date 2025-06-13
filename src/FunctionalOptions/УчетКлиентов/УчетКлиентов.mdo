@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1cd47f7d-36e7-4154-9dc3-e6f47b8a5ccd">
+  <name>УчетКлиентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учет клиентов</value>
+  </synonym>
+  <location>Constant.УчетКлиентов</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Document.ОказаниеУслуги.Attribute.Клиент</content>
+  <content>AccumulationRegister.Продажи.Dimension.Клиент</content>
+  <content>Catalog.Клиенты</content>
+</mdclass:FunctionalOption>

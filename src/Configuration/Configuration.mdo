@@ -54,15 +54,26 @@
   <roles>Role.Директор</roles>
   <roles>Role.Мастер</roles>
   <roles>Role.Расчетчик</roles>
+  <filterCriteria>FilterCriterion.ОказаниеУслуги</filterCriteria>
   <commonModules>CommonModule.ГлобальныйПоискВДанных</commonModules>
+  <commonModules>CommonModule.ПрефиксыНумерации</commonModules>
   <commonModules>CommonModule.ПроведениеРасчетов</commonModules>
   <commonModules>CommonModule.РаботаСДокументамиКлиент</commonModules>
   <commonModules>CommonModule.РаботаСоСправочниками</commonModules>
   <commonModules>CommonModule.РегламентныеПроцедуры</commonModules>
   <commonModules>CommonModule.Сообщения</commonModules>
+  <exchangePlans>ExchangePlan.Филиалы</exchangePlans>
   <scheduledJobs>ScheduledJob.ОбновлениеИндекса</scheduledJobs>
   <scheduledJobs>ScheduledJob.СлияниеИндексов</scheduledJobs>
+  <functionalOptions>FunctionalOption.БухгалтерскийУчет</functionalOptions>
+  <functionalOptions>FunctionalOption.РасчетЗарплаты</functionalOptions>
+  <functionalOptions>FunctionalOption.УчетКлиентов</functionalOptions>
+  <constants>Constant.БухгалтерскийУчет</constants>
+  <constants>Constant.ПрефиксНумерацииФилиал</constants>
+  <constants>Constant.РасчетЗарплаты</constants>
+  <constants>Constant.УчетКлиентов</constants>
   <commonForms>CommonForm.ГлавныйЭкран</commonForms>
+  <commonForms>CommonForm.ОбщиеНастройки</commonForms>
   <catalogs>Catalog.ВариантыНоменклатуры</catalogs>
   <catalogs>Catalog.ВидыГрафикаРаботы</catalogs>
   <catalogs>Catalog.ДополнительныеСвойстваНоменклатуры</catalogs>
@@ -86,6 +97,7 @@
   <reports>Report.РегистрДокументовОказаниеУслуги</reports>
   <reports>Report.РейтингУслуг</reports>
   <reports>Report.Универсальный</reports>
+  <dataProcessors>DataProcessor.ОбменДанными</dataProcessors>
   <informationRegisters>InformationRegister.ГрафикиРаботы</informationRegisters>
   <informationRegisters>InformationRegister.ЗначенияСвойствНоменклатуры</informationRegisters>
   <informationRegisters>InformationRegister.Цены</informationRegisters>

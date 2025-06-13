@@ -48,6 +48,10 @@
 			<dataPath>Склад</dataPath>
 			<field>Склад</field>
 		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>НаборСвойств</dataPath>
+			<field>НаборСвойств</field>
+		</field>
 		<dataSource>ИсточникДанных1</dataSource>
 		<query>ВЫБРАТЬ
 	ОстаткиМатериалов.Материал.Наименование,

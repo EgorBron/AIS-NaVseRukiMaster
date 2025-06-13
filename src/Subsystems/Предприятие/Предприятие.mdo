@@ -19,4 +19,7 @@
   <content>Catalog.Сотрудники</content>
   <content>Catalog.Субконто</content>
   <content>InformationRegister.ЗначенияСвойствНоменклатуры</content>
+  <content>ExchangePlan.Филиалы</content>
+  <content>DataProcessor.ОбменДанными</content>
+  <content>CommonForm.ОбщиеНастройки</content>
 </mdclass:Subsystem>

@@ -15,11 +15,12 @@
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Document.ОказаниеУслуги.StandardAttribute.Number</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <basedOn>Catalog.Клиенты</basedOn>
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
   <numberType>String</numberType>
-  <numberLength>9</numberLength>
+  <numberLength>11</numberLength>
   <numberAllowedLength>Variable</numberAllowedLength>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
@@ -76,6 +77,21 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="30af53d6-e266-4d78-bb2d-8f76601c6a02">
+    <name>ОбъектОснование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект основание</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Клиенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="98a35c51-fcdd-47f9-917d-5ee7e605de03">
     <name>ФормаДокументаАвтоСумма</name>
     <synonym>
@@ -90,6 +106,15 @@
     <synonym>
       <key>ru</key>
       <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="1a891e19-d92c-41f7-b864-2327f133c895">
+    <name>ФормаДляРедактирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма для редактирования</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
